@@ -1,56 +1,21 @@
-import React from 'react';
-import  ReactDOM from 'react-dom';
-import faker from 'faker';
+import React from "react";
+import ReactDOM from "react-dom";
+import CommentDetail from "./CommentDetail";
+
+if (module.hot) {
+  module.hot.accept();
+}
 
 const App = () => {
-    return (
-    <div className='ui container comments'>
-        <div className='comments'>
-            <a href='/' className='avatar'>
-                <img alt='avatar' src={faker.image.image()}/>
-            </a>
-            <div className='content'>
-                <a href='/' className='author'>
-                    Sam
-                </a>
-                <div className='metadata'>
-                    <span className='date'>Today s at 6:00PM</span>
-                </div>
-                <div className='text'>Nice blog post!</div>
-            </div>
-        </div>
-        <div className='comments'>
-            <a href='/' className='avatar'>
-                <img alt='avatar' src={faker.image.image()}/>
-            </a>
-            <div className='content'>
-                <a href='/' className='author'>
-                    Sam
-                </a>
-                <div className='metadata'>
-                    <span className='date'>Today s at 6:00PM</span>
-                </div>
-                <div className='text'>Nice blog post!</div>
-            </div>
-        </div>
-        <div className='comments'>
-            <a href='/' className='avatar'>
-                <img alt='avatar' src={faker.image.image()}/>
-            </a>
-            <div className='content'>
-                <a href='/' className='author'>
-                    Sam
-                </a>
-                <div className='metadata'>
-                    <span className='date'>Today s at 6:00PM</span>
-                </div>
-                <div className='text'>Nice blog post!</div>
-            </div>
-        </div>
-         
+  return (
+    <div className="ui container comments">
+      <CommentDetail />
+      <CommentDetail />
+      <CommentDetail />
+      <CommentDetail />
+      <CommentDetail />
     </div>
-    
-    );
+  );
 };
 
-ReactDOM.render(<App />,document.querySelector('#root'));
+ReactDOM.render(<App />, document.querySelector("#root"));
