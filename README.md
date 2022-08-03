@@ -16,6 +16,23 @@ Output:
 ![Task one](https://github.com/PreetDP/rcomponents/blob/main/OutputImages/Taskone.png?raw=true "Task one")
 
 # Task 2:
+Here, we will add the ApprovalCard and two buttons approve and reject. Show all the comments and users on approval card. Add all the main content of task one on the ApprvalCard.
+
+This task is to show component resuability:
+First we create ApprovalCard component with with two buttons.
+Then we pass CommentDeatil component in AprrovalCard tag in index.js
+Finally we add props to AprrovalCard.js and reference {props.children} .
+We can also add plain text or html inside ApprovalCard component tag in index.js to ensure that it can be reuse whereever we want.
+OutPut :
+![Task Two](https://github.com/PreetDP/rcomponents/blob/main/OutputImages/Taskone.png?raw=true "Task two")
+
+
+
+
+
+
+
+
 
 
 # Getting Started with Create React App
