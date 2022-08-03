@@ -24,7 +24,7 @@ Then we pass CommentDeatil component in AprrovalCard tag in index.js
 Finally we add props to AprrovalCard.js and reference {props.children} .
 We can also add plain text or html inside ApprovalCard component tag in index.js to ensure that it can be reuse whereever we want.
 OutPut :
-![Task Two](https://github.com/PreetDP/rcomponents/blob/main/OutputImages/Taskone.png?raw=true "Task two")
+![Task Two](https://github.com/PreetDP/rcomponents/blob/main/OutputImages/TaskTwo.png?raw=true "Task two")
 
 
 
