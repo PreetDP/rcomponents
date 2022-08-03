@@ -12,7 +12,8 @@ Here we have name of prop author with value sam.
 In CommentDetail commponent we pass props and added ```html {props.author} ``` which consumes passed data
 //Goal of components is to show some content to the user or react to user interaction.
 Output:
-![Alt text](OutputImages\Taskone.png?raw=true "Task one")
+
+![Task one](https://github.com/PreetDP/rcomponents/blob/main/OutputImages/Taskone.png?raw=true "Task one")
 
 # Task 2:
 
